@@ -1,0 +1,6 @@
+NumFuncionario = int(input())
+HorasTrabalhadas = int(input()) 
+ValorPorHora = float(input())
+Salario = (HorasTrabalhadas * ValorPorHora)
+print ('NUMBER = {}'.format(NumFuncionario))
+print('SALARY = U$ {:.2f}'.format(Salario))
